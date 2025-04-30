@@ -23,7 +23,6 @@
     @enderror
     <small class="form-text text-muted">
         <ul>
-            <li><strong>ヘッダー</strong>: ページの最上部に表示されるタイトルと説明</li>
             <li><strong>テキスト</strong>: 段落テキストを表示するセクション</li>
             <li><strong>画像</strong>: 1つの大きな画像を表示するセクション</li>
             <li><strong>カード</strong>: 複数のカードを表示するセクション（特徴、サービス、チームメンバーなど）。カードは横スライドで表示され、スワイプまたは矢印で横にスクロールして閲覧できます。</li>

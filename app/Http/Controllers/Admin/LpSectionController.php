@@ -29,7 +29,6 @@ class LpSectionController extends Controller
     {
         $landingPage = LandingPage::findOrFail($landingPageId);
         $sectionTypes = [
-            'header' => 'ヘッダー',
             'text' => 'テキスト',
             'image' => '画像',
             'cards' => 'カード',
