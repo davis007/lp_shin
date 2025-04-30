@@ -16,6 +16,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
+route::get('home', function () {
+    return redirect('/admin/landing-pages');
+});
+
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home'); // 削除
 
 // 公開されたランディングページを表示するルート
