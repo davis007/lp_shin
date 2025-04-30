@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development webpack --progress",
+        "watch": "webpack --watch --progress --hide-modules",
+        "watch-poll": "npm run watch -- --watch-options-poll=1000",
+        "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.3",
+        "cross-env": "^7.0",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0",
+        "sass": "^1.56.1",
+        "sass-loader": "^12.0",
+        "webpack": "^5.96.1",
+        "webpack-cli": "^5.1.4"
+    }
+}
